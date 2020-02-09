@@ -21,6 +21,13 @@ Dimension(al) : 次元；维度（第n维度）
 Extradimension(al) : 异次元
 avatar : 化身
 dismantle : 拆除；拆解
+communication/comms : 通信；交流；沟通；联络
+communicate : 交流；沟通；通信；联系
+transmission : 通讯；传输
+open transmission : 公开通讯
+incoming transmission : 传入通讯
+end transmission/communications : 结束通讯/通信
+terminate transmission/communications : 终止通讯/通信
 
 # Ethic
 Ethic/Ethos : 道德观；道德；道德准则
@@ -61,7 +68,6 @@ Pop Approval Rating : 民众支持率
 Political Power : 政治权力
 actions :
     Purge : 肃清；大清洗
-    Purging : 肃清；肃清中；大清洗
     Displace : 驱离
     Assembl(e/y) : 装配
     Disassemble : 拆卸
@@ -332,6 +338,7 @@ resources :
     Rare Crystals : 稀有水晶
     Dark Matter : 暗物质
     Living Metal : 活金属
+    Zro : 卓尘
     Research : 研究
 
 # Trade
@@ -364,9 +371,6 @@ warform : 作战体
 
 Sensor : 传感器
 
-Yurantic Crystals : 羽然水晶
-Aldar Crystals : 阿达尔水晶
-
 # 事件名词
 Migrating Forests : 迁徙森林
 Zanaam : 扎娜姆
@@ -387,7 +391,7 @@ Enigmatic Cache : 神秘空管
 BALDOR XXXXIII : 保德四个十又三号 # 43的正确写法是XLIII
 Lavosian : 拉沃斯
 Nivlac : 尼弗拉克
-Nefri : 妮芙莉
+Nefri : 妮弗里
 Xvan Labs : 西凡实验室
 Sujin Empire : 崇神帝国
 ## MegaCorp
@@ -400,18 +404,33 @@ leviathans:
     ## Leviathan
     Leviathan : 利维坦
     Drake : 龙兽
+    Ether Drake : 以太龙兽
+    Dragon's Hoard : 巨龙秘藏
+    Voidwyrm : 虚空之龙
+    Scile : 塞尔
+    Enigmatic Fortress : 神秘要塞
+    Stellar Devourer : 噬星者
+    Dimensional Horror : 次元恶魔
+    Asteroid Hiver : 蜂巢小行星
+    Infinity Machine : 无极机器
     Gargantua : 高康大
     Pantagruel : 庞大固埃
-    Stellar Devourer : 噬星者
+    Automated Dreadnought : 自动化无畏舰
+    Wraith : 幽灵
     ## Distant Stars
     Scavenger : 拾荒者
     Voidspawn : 虚空后裔
 precursors :
+    precursor : 先驱者
     Cybrex : 赛博霸王
     Javorian Pox : 枫痘   # 原来翻译成 杰法利亚瘟疫 和 贾沃安瘟疫 不统一，所以干脆瞎起了个易读的名字。枫来自克罗地亚语中的 Javor 痘指 Pox 。
     ## Ancient Relics
-    Baol : 巴奥（族）
     Zroni : 卓尼（族）
+    Zron : 卓恩
+    The Divine : 升格派
+    The Saviors : 救世派
+    Baol : 巴奥（族）
+    Grunur : 格茹努尔（族）（？）  # from Icelandic grunur, suspicion
 crises :
     Prethoryn : 虫族（？）
     Sentinel : 星际护卫队；星际护卫；护卫
@@ -427,9 +446,12 @@ crises :
 ## Leviathan
 enclaves:
     Curator : 典藏研究员/典藏研究所
-    Riggan : 瑞玵
     XuraCorp : 旭然集团
+    Riggan : 瑞玵
     Muutagan : 穆塔钢
+    Rixidaran : 里希达冉
+    Artisan Troupe : 艺术家团体
+    Festival of World : 世界庆典
 ## Apocalypse
 marauder :
     Marauder : 掠夺者
@@ -449,6 +471,7 @@ L-cluster:
     L-Cluster : L星团
     Gray Goo : 灰胶
     Gray Tempest : 灰色风暴
+    Naar-Di-Shav : 纳—迪—梢
     L-Drake : L龙兽
     Dessanu Consonance : 德萨努协同体
     Nanite : 纳米机器人
@@ -482,9 +505,9 @@ megastructures :
     Coo-coo : 库库
     Habitat : 轨道栖所
     Science Nexus : 研究中枢
-    Dr. Xhaxxore : 西哈克梭尔博士（？）
+    Dr. Xhaxxore : 西哈克梭尔博士
     Ageless : 青春不老
-    Dr. Groik : 葛罗意克博士（？） # from Gaelic groig, an awkward bungling person
+    Dr. Groik : 葛罗意克博士 # from Gaelic groig, an awkward bungling person
     neural bank : 神经库
     Dyson Sphere : 戴森球
     Sentry Array : 监探阵列
@@ -506,6 +529,19 @@ artifacts :
         excavate : 发掘
         chapter : 阶段
         phase : 时段
+        Mak'vaehl : 马克维尔
+        Retarax : 雷塔拉克斯
+        Zarqlan : 扎克兰
+        MOZ-TARB : 莫兹-塔布
+        ZVA : 兹瓦
+        Armistice Initiative : 弥兵倡议
+        Kha'lanka : 卡'兰卡
+        Shard : 裂爪
+        oracle : 神媒
+        The Grand Herald : 伟大先驱
+        Saariah : 萨阿里亚
+        Ix Belèn : 埃克斯-柏楞
+        Memorex : 眠记霸王 # In the commercials, Ella Fitzgerald would sing a note that shattered a glass while being recorded to a Memorex audio cassette. The tape was played back and the recording also broke the glass, asking "Is it live, or is it Memorex?"
 
 TODO :
     增加、增强、提高、加快、提升、延长
